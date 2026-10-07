@@ -1,0 +1,2 @@
+[console_scripts]
+xfire = xfire.cli:main
