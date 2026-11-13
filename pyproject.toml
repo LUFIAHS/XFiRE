@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xfire"
+version = "3.3.0"
+description = "Cross-Sensor Fire Intelligence & Reconciliation Engine"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "pandas>=2.2", "lightgbm>=4.3", "xgboost>=2.0", "hyperopt>=0.2.7", "scikit-learn>=1.4"]
+
+[project.optional-dependencies]
+
+[project.scripts]
+xfire = "xfire.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+xfire = ["core.js", "template.html"]
