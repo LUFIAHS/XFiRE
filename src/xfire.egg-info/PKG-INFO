@@ -1,8 +1,0 @@
-Metadata-Version: 2.4
-Name: xfire
-Version: 1.0.0
-Summary: Cross-Sensor Fire Intelligence & Reconciliation Engine
-Requires-Python: >=3.10
-Requires-Dist: numpy>=2.0
-Requires-Dist: pandas>=2.2
-Requires-Dist: scikit-learn>=1.5
